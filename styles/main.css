@@ -63,6 +63,20 @@ table {
 
 body {
   font-size: 16px;
+  text-align: center;
+  background: no-repeat url(../images/pattern-background-mobile.svg), var(--pale-blue);
+  min-height: 100vh;
+  /* background-color : var(--pale-blue); */
+}
+
+main {
+  margin: auto;
+  max-width: 350px;
+  min-height: 95vh;
+}
+
+.text-section {
+  background-color: white;
 }
 
 .attribution {
@@ -72,4 +86,10 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:1440px) {
+  body {
+    background: no-repeat url(../images/pattern-background-desktop.svg), var(--pale-blue);
+  }
 }
