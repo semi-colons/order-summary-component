@@ -63,6 +63,7 @@ table {
 
 body {
   font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
   text-align: center;
   background: no-repeat url(../images/pattern-background-mobile.svg), var(--pale-blue);
   min-height: 100vh;
@@ -73,10 +74,34 @@ main {
   margin: auto;
   max-width: 350px;
   min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin: 2rem 1rem;
+}
+
+.card-image {
+  margin-top: 5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* padding: 0 0 10px 0; */
 }
 
 .text-section {
-  background-color: white;
+  background-color: var(--very-pale-blue);
+  line-height: 1.5;
+}
+
+.card-main-text {
+  color: var(--desaturated-blue);
+  padding: 0 15% 10% 15%;
+  font-size: 0.9rem;
 }
 
 .attribution {
