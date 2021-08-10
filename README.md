@@ -5,4 +5,5 @@ https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/o
 
 
 ## Other details
-Using only HTML and CSS with no third party frameworks for this solution attempt
+Using only HTML and CSS with no third party frameworks for this solution attempt.
+Mobile first design
