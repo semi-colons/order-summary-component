@@ -101,6 +101,7 @@ p {
   line-height: 1.5;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
+	box-shadow: 0 16px 12px -10px var(--desaturated-blue);
 }
 
 .card-main-text {
