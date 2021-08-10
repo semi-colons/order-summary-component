@@ -143,6 +143,43 @@ p {
 	text-decoration: none;
 }
 
+.lower {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.5rem;
+}
+
+.lower a {
+	margin-bottom: 1rem;
+	text-decoration: none;
+}
+
+.payment-link {
+	margin-right: 2rem;
+	margin-left: 2rem;
+	padding: 5% 10%;
+	background-color: var(--bright-blue);
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0 8px 12px 1px var(--pale-blue);
+}
+
+.payment-link:hover {
+	background-color: var(--dark-blue);
+}
+
+.cancel-link {
+	color: var(--desaturated-blue);
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cancel-link:hover {
+	color: black;
+	cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
